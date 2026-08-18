@@ -1435,6 +1435,12 @@ SUL_communist;Communist Faction;;;;;;;;;;;;;x
 SUL_reactionary;Nationalist Faction;;;;;;;;;;;;;x
 SUL_anarcho_liberal;Radical Faction;;;;;;;;;;;;;x
 SUL_fascist;Fascist faction;;;;;;;;;;;;;x
+SVC;The Slavic Commonwealth;;;;;;;;;;;;x
+SVC_ADJ;Slavic;;;;;;;;;;;;x
+SVC_proletarian_dictatorship;The Slavic Commonwealth;;;;;;;;;;;;x
+SVC_fascist_dictatorship;The Slavic Commonwealth;;;;;;;;;;;;x
+SVC_presidential_dictatorship;The Slavic Commonwealth;;;;;;;;;;;;x
+SVC_democracy;The Slavic Commonwealth;;;;;;;;;;;;x
 SVY;Savoy;;;;;;;;;;;;;x
 SVY_ADJ;Savoyard;;;;;;;;;;;;;x
 SWH;Schleswig-Holstein;;;;;;;;;;;;x

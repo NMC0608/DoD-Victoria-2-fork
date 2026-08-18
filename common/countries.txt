@@ -426,6 +426,7 @@ TGA = "countries/Tonga.txt"
 ARA = "countries/Aragon.txt"
 BYE = "countries/Belarus.txt"
 PLC = "countries/Poland-Lithuania.txt"
+SVC = "countries/Slavic Commonwealth.txt"
 UBD = "countries/Neu Kurland.txt"
 
 

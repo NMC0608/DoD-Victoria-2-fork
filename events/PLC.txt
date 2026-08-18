@@ -234,3 +234,50 @@ country_event = {
         change_tag = RUT
     }
 }
+
+# DEVELOPED BY ME
+
+country_event = {
+    id = 123321
+    title = "POL100.T"
+    desc = "POL100.D"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "POL100.A"
+
+        any_owned = {
+            add_core = PLC
+        }
+
+        add_accepted_culture = romanian
+        add_accepted_culture = hungarian
+
+        set_country_flag = plc_central_european
+    }
+}
+
+country_event = {
+    id = 123322
+    title = "POL101.T"
+    desc = "POL101.D"
+
+    major = yes
+
+    is_triggered_only = yes
+
+    option = {
+        name = "POL101.A"
+
+        change_tag = SVC
+
+        RUS = {
+            all_core = { add_core = SVC }
+        }
+
+        add_accepted_culture = russian
+
+        set_country_flag = slavic_commonwealth
+    }
+}

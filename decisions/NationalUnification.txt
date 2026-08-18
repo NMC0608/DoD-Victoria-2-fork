@@ -4,6 +4,7 @@ political_decisions = {
             culture_has_union_tag = yes
             NOT = {
                 tag = SAF
+                tag = SVC
                 OR = {
                     cultural_union = { exists = yes }
                     is_culture_group = boer_cultures

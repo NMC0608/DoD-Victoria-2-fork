@@ -1966,3 +1966,51 @@ country_event = {
         }
     }
 }
+
+#DEVELOPED BY ME
+
+country_event = {
+    id = 123323
+    title = "EVTNAME123323"
+    desc = "EVTDESC123323"
+    
+    trigger = {
+        ai = no
+        has_country_flag = purge_active
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+    
+    option = {
+        name = "EVTOPTA123323"
+        
+        any_pop = {
+            limit = {
+                OR = {
+                    has_pop_culture = lotharian
+                    has_pop_culture = granadan
+                    has_pop_culture = mexican
+                    has_pop_culture = guianan
+                    has_pop_culture = amazonian
+                    has_pop_culture = central_american
+                    has_pop_culture = castilian
+                    has_pop_culture = portuguese
+                    has_pop_culture = amazonian_native
+                    has_pop_culture = native_american_minor
+                    has_pop_culture = quechua
+                    has_pop_culture = aimara
+                    has_pop_culture = guarani
+                    has_pop_culture = patagonian
+                    has_pop_culture = guajiro
+                    has_pop_culture = afro_frankish
+                    has_pop_culture = afro_latino
+                }
+            }
+            consciousness = 1
+            reduce_pop = 0.95
+        }
+        badboy = 0.5
+    }
+}

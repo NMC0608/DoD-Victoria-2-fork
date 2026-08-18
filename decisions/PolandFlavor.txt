@@ -1,0 +1,48 @@
+# DEVELOPED BY ME
+
+political_decisions = {
+    integrate_central_europe = {
+        potential = {
+            tag = PLC
+        }
+
+        allow = {
+            year = 1860
+            war = no
+            is_greater_power = yes
+            owns = 664    # Bucharest
+            owns = 641    # Budapest
+            NOT = { has_country_flag = plc_central_european }
+        }
+
+        effect = {
+            country_event = 123321
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    incorporate_russia = {
+        potential = {
+            tag = PLC
+        }
+
+        allow = {
+            year = 1875
+            war = no
+            is_greater_power = yes
+            owns = 994    # St.Petersburg
+            NOT = { has_country_flag = slavic_commonwealth }
+        }
+
+        effect = {
+            country_event = 123322
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

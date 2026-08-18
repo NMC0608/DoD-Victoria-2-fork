@@ -2412,8 +2412,9 @@ anglois_dilemma = {
     non_accepted_pop_militancy_modifier = 0.08
     pop_consciousness_modifier = 0.1
 }
+
 anglois_cultural_unity = {
-    global_assimilation_rate = 100
+    assimilation_rate = 3
     icon = 19
 }
 
@@ -2428,9 +2429,9 @@ revolution_aftermath = {
 }
 
 beornia_english = {
-    global_immigrant_attract = 0.3
-    assimilation_rate = 0.5
-    icon = 19
+    global_immigrant_attract = 2.5
+    global_assimilation_rate = 0.5
+    icon = 17
 }
 
 etrurian_agitation = {

@@ -140,5 +140,4 @@ political_decisions = {
             }
         }
     }
-
 }
